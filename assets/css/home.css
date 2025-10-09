@@ -378,7 +378,53 @@ margin-left: 20px;
 /*end header*/
 
 
+/*start feature brand*/
 
+.feature__content{
+    gap:20px;
+    align-items: center;
+}
+
+.right-side-brand{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+.feature-brand-img{
+    width:100px;
+    height:30px ;
+}
+
+.w{
+   
+    width:740px;
+}
+.card-header-gap{
+    gap:30px;
+}
+
+.img-right{
+    width:130px;
+    height: 45px;
+}
+@media screen and (min-width: 0px) and (max-width: 871px) {
+  .feature__content {
+   flex-direction: column;
+   width:100%;
+   justify-content: center;
+   justify-content: flex-start;
+  
+   overflow-x: auto; 
+   white-space: nowrap; 
+   scroll-behavior: smooth; 
+
+  }
+}
+
+
+
+/*end feature brand*/
 
 
 
