@@ -68,7 +68,7 @@ background-color: #1ABA1A;
     color:#000000;
     width:516px;
     border-radius: 30px;
-    text-align: right;
+    text-align: center;
 }
 
 ol{
@@ -136,6 +136,7 @@ ol{
 @media (min-width: 1251px) {
   .nav2-search {
     max-width: 516px;
+
   }
 }
 
@@ -143,6 +144,8 @@ ol{
 @media (max-width: 1250px) and (min-width: 992px) {
   .nav2-search {
     max-width: 400px;
+     
+
   }
   ol.list-unstyled.d-flex {
     gap: 50px;
@@ -314,13 +317,6 @@ margin-left: 20px;
 
 /* ===== Responsive Design ===== */
 
-@media (max-width: 1492px){
-.right-side{
-    visibility: hidden;
-}}
-
-
-
 
 
 @media (max-width: 1123px) {
@@ -367,14 +363,23 @@ margin-left: 20px;
 .center-header{
     width: 100%;
 }
+.image-container .main-banner span{
+    font-size:5px;
+}
+
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1123px) {
   .center-header-extention {
-    visibility: hidden;
+    display: none;
   }
 }
-
+@media screen and (max-width: 1492px) {
+  .right-side {
+    display: none !important;
+  }
+}
 /*end header*/
 
 
@@ -427,7 +432,155 @@ margin-left: 20px;
 /*end feature brand*/
 
 
+/*start deals product*/
+.deals-of-the-day {
+  width: 100%;
+}
 
+.deals-of-the-day-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.deals-of-the-day-right {
+  width: 1100px;
+  max-width: 100%;
+}
+
+
+.nav-deals {
+  background-color: #1ABA1A;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+.main-part-in-right {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+.deals-left-side {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 325px;
+  max-width: 100%;
+}
+
+.deals-left-side img {
+  width: 100%;
+ 
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.list__main {
+  font-size: 12px;
+  margin-right: 50px;
+}
+
+
+
+
+@media (max-width: 1495px) {
+  .deals-of-the-day-content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .deals-of-the-day-right {
+    width: 100%;
+  }
+
+   .deals-left-side {
+    display: none !important;
+    
+  }
+
+  
+}
+
+
+@media (max-width: 992px) {
+  .deals-of-the-day-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deals-of-the-day-right,
+  .deals-left-side {
+    width: 100%;
+  }
+
+  .deals-left-side {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .deals-left-side img {
+    width: 100%;
+   
+}
+
+
+}
+
+
+@media (max-width: 576px) {
+  .deals-left-side img {
+    width: 100%;
+  }
+
+  .list__main {
+    margin-right: 0;
+  }
+  .deals-left-side {
+    display: none;
+    
+  }
+
+}
+
+@media (max-width: 620px) {
+  ul {
+    display: none;
+  }
+.deals-left-side {
+    display: none;
+    
+  }
+
+  
+}
+@media (max-width: 458px) {
+  p {
+    display: none;
+  }
+.res__btn{
+    display: flex;
+flex-direction: column;
+
+gap:10px;
+}
+   
+
+}
+  
+
+
+
+
+/*end deals product*/
 
 
 
