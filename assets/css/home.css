@@ -673,14 +673,52 @@ margin-bottom: 10px;
 }
 
 
-
-
-
-
-
-
-
 /*end best seller*/
 
 
 
+/*start brand__new*/
+.brand__new{
+    width: 100%;
+    border-radius: 10px;
+}
+.product__brand{
+    gap:15px;
+    width:100%;
+}
+
+.product_item{
+    width:calc((93% - 45px)/4);
+    
+    flex: 1 1 320px; 
+  max-width: 320px;
+
+
+}
+
+.new__brand__img {
+  width: 302px;
+  height: 230px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.brand__new__content{
+    font-size: 13px;
+    color:#666666;
+}
+
+.product_items .brand__new__btn{
+    width:125px;
+height: 35px;
+}
+
+
+
+
+
+
+
+/*end brand__new*/
