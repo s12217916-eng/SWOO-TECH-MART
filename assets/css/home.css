@@ -575,22 +575,20 @@ gap:10px;
    
 
 }
-  
+  /*end deals product*/
 
 
+/*start nav free shiping*/
 
-
-/*end deals product*/
-
-
-
-
-
-
-
-
-
-
+.nav__free{
+    background-color: #1ABA1A;
+ margin-bottom: 25px;
+    border-radius: 10px;
+}
+.text_nav_color{
+    color:#FFE400;
+}
+/*end nav free shiping*/
 
 
 
