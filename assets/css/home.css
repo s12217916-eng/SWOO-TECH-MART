@@ -715,10 +715,173 @@ margin-bottom: 10px;
 height: 35px;
 }
 
-
-
-
-
-
-
 /*end brand__new*/
+
+
+
+/*start "top__cellphones__tablets */
+.top__cellphones__tablets{
+border-radius: 10px;
+}
+.bottom__part{
+    gap:15px;
+}
+
+.top__item__content p{
+    font-size:12px;
+}
+.top__item__content span{
+    font-size:10px;
+}
+.head__seller{
+    margin-top: 30px;
+}
+.top__part{
+    gap:50px;
+}
+
+
+.top__right{
+    gap:45px;
+}
+
+
+.top__right img{
+width:60px;
+height: 60px;
+}
+.top__item{
+    gap:35px;
+}
+
+.top__item__content{
+    gap:0;
+}
+
+
+.top__cellphones__card{
+    width:250px;
+    height:420px ;
+}
+
+
+.top__cellphones__card img{
+margin-bottom: 50px;
+
+}
+
+.top__cellphones__card h5{
+margin-bottom: 15px;
+font-size: 14px;
+}
+
+.top__cellphones__card p{
+margin-bottom: 23px;
+font-size: 18px;
+}
+
+@media (max-width: 1334px) {
+.top__part{
+     flex: 1 1 200px;
+    max-width: 200px;
+} }
+
+
+
+
+
+
+@media (max-width: 1140px) {
+.top__part{
+    flex-direction:column ;
+    width: 100%;
+} 
+.top__left{
+    width:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top__right{
+    align-items: center;
+    justify-content: center;
+}
+
+.top__right img{
+    width:40px;
+    height:40px ;
+}
+.top__cellphones__card{
+    
+     height:400px ;
+}
+
+ }
+
+@media (max-width: 540px) {
+.top__right{
+    gap:10px;
+}
+
+.top__item{
+    gap:7px;
+}
+
+.top__cellphones__card{
+    flex: 1 1 120px;
+    max-width: 130px;
+    align-items: center;
+    justify-content: center;
+     height:310px ;
+}
+
+}
+
+
+.top__cellphones__card{
+    flex: 1 1 250px;
+    max-width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 803px) {
+
+
+
+
+.top__cellphones__card img{
+margin-bottom: 0px;
+
+}
+
+.top__cellphones__card h5{
+margin-bottom: 4px;
+font-size: 10px;
+}
+
+.top__cellphones__card p{
+margin-bottom: 5px;
+font-size: 12px;
+}
+
+}
+
+
+@media (max-width: 538px) {
+.top__cellphones__card{
+    flex: 1 1 120px;
+    max-width: 130px;
+    align-items: center;
+    justify-content: center;
+     height:220px ;
+}
+
+}
+
+/*end "top__cellphones__tablets*/
+
+
+
+
+
