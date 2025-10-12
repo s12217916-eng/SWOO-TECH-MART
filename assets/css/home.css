@@ -761,7 +761,7 @@ height: 60px;
 
 .top__cellphones__card{
     width:250px;
-    height:420px ;
+   
 }
 
 
@@ -797,7 +797,7 @@ font-size: 18px;
     width: 100%;
 } 
 .top__left{
-    width:95%;
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -811,10 +811,7 @@ font-size: 18px;
     width:40px;
     height:40px ;
 }
-.top__cellphones__card{
-    
-     height:400px ;
-}
+
 
  }
 
@@ -832,7 +829,7 @@ font-size: 18px;
     max-width: 130px;
     align-items: center;
     justify-content: center;
-     height:310px ;
+   
 }
 
 }
@@ -874,14 +871,69 @@ font-size: 12px;
     max-width: 130px;
     align-items: center;
     justify-content: center;
-     height:220px ;
+   
 }
 
 }
+
+
 
 /*end "top__cellphones__tablets*/
 
+/*start */
+.row{
+    gap:15px;
+}
 
+
+.item{
+    border-radius: 10px;
+    width: 450px;
+}
+
+.item__content{
+gap:85px;
+}
+
+.item h4{
+    font-size: 18px;
+}
+
+.item span{
+    font-size: 13px;
+}
+
+.item img{
+    width:410px;
+    height:190px ;
+   
+    
+}
+
+.item__product img{
+    width:130px;
+    height:130px ;
+}
+
+.item__left{
+    gap:30px;
+}
+.item__right{
+    gap:30px;
+}
+
+/*end */
+
+
+@media (max-width: 420px) {
+.item{
+    width:80%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+}
 
 
 
