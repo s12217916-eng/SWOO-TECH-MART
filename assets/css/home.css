@@ -1033,7 +1033,15 @@ font-size: 8px;
 
 
 
+/*ster paragraph*/
+.paragraph__content{
+    gap:30px;
+}
+.paragraph__content p{
+    font-size: 14px;
+}
 
+/*end paragraph*/
 
 
 
