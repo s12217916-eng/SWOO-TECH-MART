@@ -955,6 +955,97 @@ width:45%;
 }
 }
 
-
-
 /*end card*/
+
+
+
+
+/*start your recently viewed*/
+.recently__viewed{
+    border-radius: 10px;
+}
+
+.recently__viewed__products{
+    gap:30px;
+}
+.recently__viewed__product{
+    width:calc(88% / 4);
+    flex:1 1 300px;
+    max-width: 22%;
+}
+
+.recently__viewed__content{
+    gap:35px;
+
+}
+
+.head__content{
+    gap:30px;
+}
+
+.head__content p{
+font-size: 18px;
+
+}
+.head__content span{
+font-size: 13px;
+}
+
+.item__content .pa{
+font-size: 13px;
+}
+.item__content p{
+    font-size: 16px;
+}
+
+.item__content span{
+    font-size: 14px;
+}
+
+@media (max-width: 720px) {
+.item__content .pa{
+font-size: 8px;
+}
+.item__content p{
+    font-size: 10px;
+}
+
+.item__content span{
+    font-size: 9px;
+}
+}
+
+
+@media (max-width: 457px) {
+.item__content .pa{
+font-size: 8px;
+}
+.item__content p{
+    font-size: 10px;
+}
+
+.item__content span{
+    font-size: 9px;
+}
+}
+
+/*end your recently viewed*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
