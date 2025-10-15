@@ -643,13 +643,20 @@ margin-bottom: 23px;
     gap:10px;
 }
 
-
+@media (max-width: 970px) {
+ 
+ .product{
+    gap:10px;
+}}
 
 @media (max-width: 490px) {
  .head__seller span{
     display: none;
 
  }
+ .product{
+    gap:0px;
+}
  .right_nav_content{
     font-size: 15px;
     justify-content: space-between;
@@ -667,8 +674,6 @@ margin-bottom: 8px;
 .card-body{
 margin-bottom: 10px;   
 }
-
-
 
 }
 
@@ -781,12 +786,18 @@ margin-bottom: 23px;
 font-size: 18px;
 }
 
+
 @media (max-width: 1334px) {
 .top__part{
-     flex: 1 1 200px;
-    max-width: 200px;
-} }
+    flex-direction: column;
+   
+} 
+.top__right{
+   
+    flex-direction: row !important;
+}
 
+}
 
 
 
@@ -877,12 +888,21 @@ font-size: 12px;
 
 }
 
-@media (max-width: 803px) {
-
-    .top__left img{
-
-    }
+@media (max-width: 450px) {
+.top__left{
+  width:15%;
+   
 }
+.header h3{
+    font-size: 15px;
+}
+.header span{
+    font-size: 10px;
+}
+
+}
+
+
 
 /*end "top__cellphones__tablets*/
 
