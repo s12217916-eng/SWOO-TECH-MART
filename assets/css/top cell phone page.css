@@ -1,0 +1,132 @@
+
+.top__cell__product{
+    border-radius: 10px;
+}
+
+
+
+.top__cell__product__content{
+    gap:30px;
+}
+
+.AA{
+    gap:20px;
+}
+
+.AA .btn{
+   background-color: #1ABA1A;
+   color:white;
+   width:200px;
+}
+.btn__dark{
+    background-color: black;
+}
+
+.btn__green{
+    color:white;
+   background-color: #1ABA1A;
+}
+
+.g__1{
+    gap:10px;
+}
+
+.w__40{
+    width:35%;
+
+}
+
+.w__35{
+    width:35%;
+    
+}
+
+.w__25{
+    width:28%;
+    
+}
+
+
+
+@media (max-width: 990px) {
+    .ms-4 {
+    margin-left: -22px !important; /* أو margin-inline-start: 0 !important; */
+  }
+.left__top__cell__product__content{
+    display: none !important;
+}
+.visibility__true{
+    display: block !important;
+}
+
+
+
+
+.w__35{
+    width:50%;
+    
+}
+
+.w__25{
+    width:50%;
+    
+}
+}
+
+
+@media (max-width:600px) {
+    .top__cell__product__content{
+        flex-direction: column;
+    }
+.w__35{
+    width:100%;
+    
+}
+
+.w__25{
+    width:100%;
+    
+}
+  .ms-4 {
+    margin-left: 0 !important; /* أو margin-inline-start: 0 !important; */
+  }
+
+}
+
+
+.description{
+    border-radius: 10px;
+}
+
+
+
+.nav__description ul{
+    gap:50px;
+}
+
+.img__description{
+    gap:10px;
+}
+
+
+@media (max-width: 803px) {
+    .breadcrumb__content{
+        font-size:7px;
+    }
+}
+
+
+@media (max-width: 722px) {
+.top__description p{
+font-size: 12px;
+}
+
+.top__description span{
+font-size: 10px;
+}}
+@media (max-width: 415px) {
+    .breadcrumb__content{
+        flex-direction: column;
+    }
+}
+
