@@ -1,0 +1,95 @@
+.top__cell__phones__tablets{
+    border-radius: 10px;
+}
+
+.top__cell__phones__tablets__image{
+    gap:12px;
+}
+
+
+@media (max-width: 715px) {
+    .top__cell__phones__tablets{
+    width: 100%;
+}
+.top__cell__phones__tablets__image{
+    flex-direction: column;
+}
+.top__cell__phones__tablets__image img{
+    width:100%;
+}
+.top__cell__phones__tablets__image{
+    gap:8px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.top__cell__phones__tablets__content h1{
+    margin-left: 40px !important;
+
+}
+
+
+.ms-2 {
+margin-left: 0px !important;
+}
+.me-2{
+margin-right: 0px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Best__seller__in__this__category {
+    border-radius: 10px;
+}
+
+.g__70{
+    gap:80px
+}
+.g__30{
+    gap:65px;
+}
+
+
+
+
+
+
+
+.border__radious{
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 446px) {
+.Best__seller__in__this__category__content .w-25{
+width:35%;
+}
+
+.Best__seller__in__this__category__content .w-25{
+width:65%;
+}
+ul li {
+    font-size: 10px !important;
+}
+
+.right_nav_content p{
+    font-size: 12px !important;
+}
+
+
+}

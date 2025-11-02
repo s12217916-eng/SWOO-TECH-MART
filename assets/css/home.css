@@ -396,6 +396,10 @@ margin-left: 20px;
     flex-wrap: wrap;
 }
 
+
+
+
+
 .feature-brand-img{
     width:100px;
     height:30px ;
@@ -403,7 +407,8 @@ margin-left: 20px;
 
 .w{
    
-    width:740px;
+    width:50%;
+    height:auto;
 }
 .card-header-gap{
     gap:30px;
@@ -426,7 +431,13 @@ margin-left: 20px;
 
   }
 }
-
+@media screen and (min-width: 0px) and (max-width: 860px) {
+  .w{
+   
+    width:100%;
+    height:auto;
+}
+}
 
 
 /*end feature brand*/
@@ -643,10 +654,43 @@ margin-bottom: 23px;
     gap:10px;
 }
 
+
+
+
+.product_items {
+  transition: all 0.5s ease;
+  border-radius: 15px;
+}
+
+.product_items:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.product_items:hover img {
+  transform: scale(1.3);
+  transition: transform 0.3s ease;
+}
+
+
+.product_items:hover .btn-outline-success {
+  background-color: #198754;
+  color: white;
+}
+
+.product_items:hover .btn-outline-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+
+
 @media (max-width: 970px) {
  
  .product{
-    gap:10px;
+    gap:0px;
 }}
 
 @media (max-width: 490px) {
@@ -785,6 +829,39 @@ font-size: 14px;
 margin-bottom: 23px;
 font-size: 18px;
 }
+
+
+
+.top__cellphones__card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+.top__cellphones__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.top__cellphones__card img {
+  transition: transform 0.3s ease;
+}
+
+.top__cellphones__card:hover img {
+  transform: scale(1.05);
+}
+
+
+.top__cellphones__card:hover .btn-outline-success {
+  background-color: #198754;
+  color: white;
+}
+
+
+
+
 
 
 @media (max-width: 1334px) {
